@@ -10,7 +10,20 @@ function validateForm(){
     var gender = document.getElementById('gender').value;
     var d= parseInt(((cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd )% 7;
 
-    if (dd<=0||dd>31||dd==""){
-        alert("Enter a valid date!")
+    if (dd<=0||dd>31){
+        alert("Please Enter a valid Date between 1 and 31!")
         }
+    else if(mm<=0 || mm > 12 || mm == 2 && dd > 29){
+        alert("Please Enter a valid Month between 1 and 12!")
+    }
+    else if (year <=0){
+        alert("Please Enter a valid Year!")
+    }
+    if (gender==="male"){
+         alert("Your name is " + maleNames[d])
+    }
+    else if (gender === "female"){
+        alert("Your name is " + femaleNames[d])
+
+    }
 }
