@@ -10,4 +10,7 @@ function validateForm(){
     var gender = document.getElementById('gender').value;
     var d= parseInt(((cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd )% 7;
 
+    if (dd<=0||dd>31||dd==""){
+        alert("Enter a valid date!")
+        }
 }
