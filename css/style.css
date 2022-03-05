@@ -25,3 +25,15 @@ p{
     width: 75%;
     margin-left: 10%
 }
+p:nth-child(4){
+    text-align: center;
+    padding: 5%;
+    font-size: x-large;
+}
+p span{
+    font-family: 'Poppins', sans-serif;
+    color: gold;
+    font-size: large;
+    font-weight: bold ;
+    font-style: italic;
+}
