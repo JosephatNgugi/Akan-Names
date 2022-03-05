@@ -37,3 +37,15 @@ p span{
     font-weight: bold ;
     font-style: italic;
 }
+form{
+    font-size: large;
+    padding: 1%;
+    text-align: center;
+}
+input, select{
+    padding: 0.6%;
+    font-size: large;
+}
+select{
+    text-align: center;
+}
