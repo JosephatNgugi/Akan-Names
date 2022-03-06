@@ -49,5 +49,12 @@ input, select{
 select{
     text-align: center;
 }
-
+footer{
+    display: flex;
+    padding: 1rem 15rem;
+    background-color: #FFFFFF;
+}
+footer h2{
+    padding: 0rem 2rem;
+}
 
