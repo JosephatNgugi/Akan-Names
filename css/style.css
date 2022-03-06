@@ -6,6 +6,14 @@
 body{
     background: linear-gradient(105deg, rgba(84, 142, 230, 0.919) 55%, #baa0ac 50%);;
 }
+nav{
+    background-color: #FFFFFF;
+}
+nav h1 {
+    text-align: left;
+    font-size: x-large;
+    color: rgb(109, 235, 59);
+}
 h1{
     font-family: 'Sansita Swashed', cursive;
     font-size: 3rem;
