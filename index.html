@@ -25,7 +25,7 @@
     <p class="one">Ghana's Akan people frequently name their children after the day of the week and the order in which they were born. These "day names" have additional meanings related to the person's soul and character.</p>
     <p class="two">Since most people know when their birthdays are, others may not know which day of the week they were born.</p>
     <p class="three">To learn about your <span>Akan name</span>, <br> Please fill out the form below with your information and let us identify it for you.</p>
-    <form name="myForm" class="myForm">
+    <form name="myForm" id="myForm">
         <label for="date">Enter Date of Birth:</label>
         <input type="number" id="date" name="date" placeholder="Please Input date as '03'" required><br><br>
 
@@ -41,6 +41,7 @@
             <option value="female">Female</option>
         </select><br><br>
         <input type="submit" value="Get Name" onclick="validateForm()">
+        <input type="button" onclick="clearFunction()" value="Clear Form">
     </form>
     <footer>
         <h2>Powered by Joe</h2>

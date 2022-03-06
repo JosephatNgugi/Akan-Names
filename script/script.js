@@ -27,3 +27,6 @@ function validateForm(){
 
     }
 }
+function clearFunction(){
+    document.getElementById("myForm").reset()
+}
