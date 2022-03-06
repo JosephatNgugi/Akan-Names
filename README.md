@@ -16,6 +16,7 @@ Create a data collection form to capture:
 * Month of Birth.
 * Year of Birth.
 * Gender.
+-----
 Onclick submit button:
 * Check if all values have been filled, else request the user to Fill all fields.
 * Check date, month and year values satisfies the required specifications else alert the user to input valid inputs.
