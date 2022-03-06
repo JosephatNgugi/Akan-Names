@@ -26,6 +26,9 @@ Click on this link to view the live website: https://josephatngugi.github.io/Aka
 -----
 ## Known Bugs
 If you encounter any bugs, please feel free to document it and reach out.
+### Contacts
+You can reach me on
+Email: `Josephatn10@gmail.com`
 ## Technologies Used
 - HTML
 - CSS
