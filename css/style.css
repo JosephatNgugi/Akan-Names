@@ -51,7 +51,7 @@ select{
 }
 footer{
     display: flex;
-    padding: 1rem 15rem;
+    padding: 1rem 25rem;
     background-color: #FFFFFF;
 }
 footer h2{
